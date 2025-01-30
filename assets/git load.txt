@@ -1,0 +1,30 @@
+git config --blobal user.name "nombre"
+git config --blobal user.email "email"
+git config --blobal -e
+:q
+git config --blobal -l
+:q
+
+git init
+git status
+git add .
+git status
+git commit -m "header page php"
+git status
+git log
+git remote add origin https://..............
+git push origin master
+
+//Recuperar borrado
+git checkout -- .
+
+//subir por separado
+git add index.html
+git status
+
+//subir actualizaciones de todo
+git add -u 
+
+//no subir ciertor archivos previamente
+git reset css/
+git status
