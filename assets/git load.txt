@@ -1,8 +1,8 @@
-git config --blobal user.name "nombre"
-git config --blobal user.email "email"
-git config --blobal -e
+git config --global user.name "nombre"
+git config --global user.email "email"
+git config --global -e
 :q
-git config --blobal -l
+git config --global -l
 :q
 
 git init
@@ -12,6 +12,7 @@ git status
 git commit -m "header page php"
 git status
 git log
+git Branch -M main o master
 git remote add origin https://..............
 git push origin master
 
